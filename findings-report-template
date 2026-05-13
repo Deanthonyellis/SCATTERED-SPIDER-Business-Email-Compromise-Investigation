@@ -1,0 +1,80 @@
+# Hunt Findings Report
+
+## Hunt Title
+_e.g., Suspicious PowerShell Encoded Commands_
+
+**Date:** YYYY-MM-DD  
+**Hunter:** Your Name  
+**MITRE Technique:** T1059.001  
+**Severity:** High / Medium / Low / Informational
+
+---
+
+## Summary
+_2–3 sentence summary of the hunt, what was searched, and the outcome._
+
+---
+
+## Hypothesis
+_Restate the original hypothesis here._
+
+---
+
+## Data Sources Used
+
+| Log Source | Sentinel Table | Time Range |
+|------------|---------------|------------|
+| | | |
+
+---
+
+## KQL Query Used
+
+```kql
+// Final tuned query used for this hunt
+```
+
+---
+
+## Findings
+
+### Result: ✅ True Positive / ⚠️ Suspicious / ✔️ No Findings
+
+| Timestamp | Host | Account | Behavior | Notes |
+|-----------|------|---------|----------|-------|
+| | | | | |
+
+---
+
+## Analysis
+_Describe what you found, the context around the activity, and your assessment of whether it is malicious._
+
+---
+
+## False Positives Identified
+_List any benign activity that matched the query and how you ruled it out._
+
+---
+
+## Recommendations
+
+- [ ] Create a detection rule / analytic rule in Sentinel
+- [ ] Add IOCs to watchlist
+- [ ] Escalate to incident response
+- [ ] No action required — document and close
+
+---
+
+## IOCs (if applicable)
+
+| Type | Value | Context |
+|------|-------|---------|
+| IP | | |
+| Hash | | |
+| Domain | | |
+
+---
+
+## References
+- [MITRE ATT&CK T1059.001](https://attack.mitre.org/techniques/T1059/001/)
+- _Any threat intel or blog posts that informed this hunt_
